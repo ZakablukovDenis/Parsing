@@ -37,12 +37,10 @@ def get_content(html):
             if search in stick:
                 """ССЫЛКА / ВИЛКА З/П / КОМПАНИЯ / ГОРОД"""
                 value_html.append(
-                    {
-                        "link": info_link,
-                        "salary": info_salary,
-                        "company": company_title,
-                        "city": title_city
-                    }
+                    {"link": info_link,
+                     "salary": info_salary,
+                     "company": company_title,
+                     "city": title_city}
                 )
             break
 
